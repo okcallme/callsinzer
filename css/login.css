@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'NEXON Lv1 Gothic OTF';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "NEXON Lv1 Gothic OTF", normal;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul li {
+  display: inline-block;
+}
+
+.l-text {
+  font-size: 3em;
+  color: #448aca;
+  font-weight: 900;
+}
+
+.m-text {
+  font-size: 1.5em;
+}
+
+.s-text {
+  font-size: 0.9em;
+}
+
+.loginBox {
+  width: 100vw;
+  height: 100vh;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginPage {
+  width: 300px;
+  height: 300px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  width: 300px;
+  height: 300px;
+  background-color: #EEEFF1;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  text-align: center;
+  border: none;
+
+}
+
+.id {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  color: #424242;
+  font-size: 0.9em;
+  padding: 10px 0;
+}
+
+.text-field {
+  font-size: 0.9em;
+  padding: 10px;
+  border: none;
+  width: 260px;
+  margin-bottom: 10px;
+
+}
+
+.submit-btn {
+  font-size: 0.9em;
+  border: none;
+  padding: 10px;
+  width: 260px;
+  background-color: #448aca;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.join {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 0.9em;
+  border: none;
+  padding: 10px;
+  width: 260px;
+  background-color: #448aca;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.links {
+  text-align: center;
+}
+
+.links a {
+  font-size: 0.8em;
+  color: #9B9B9B;
+}

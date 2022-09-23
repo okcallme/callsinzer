@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>콜신져 마스터 설치</title>
+
+</head>
+
+<body style="overflow-x:hidden; overflow-y:auto;">
+    <div class="download-popup">
+        <div class="download-box">
+            <p class="down-title l-text">"콜신져 뷰티플러스"</p>
+            <a class="download m-text" href="#" download>
+                1. 프로그램 설치</a>
+            <a class="download m-text" href="#" download>
+                2. 업데이트</a>
+        </div>
+        <div class="download-box download-text">
+            <p class="s-text exp1">★ 2개의 파일을 모두 다운로드 후 순서대로 설치 해주세요 ★</p>
+        </div>
+        <div class="download-howto">
+            <a id="button" href="#" type="button">
+                <p class="how-to">프로그램 설치 방법 보기</p>
+                <p id="click">클릭해서 설치 방법을 확인하세요</p>
+            </a>
+            <img id="download-img" src="./img/다운로드설치안내.png" alt="다운로드 설명 사진">
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#button').click(function () {
+                if ($('#download-img').css('display') == 'none') {
+                    $('#download-img').css("display", "block");
+                    $('#click').css("display", "none");
+                    window.resizeTo(500, 800);
+
+                } else {
+                    $('#download-img').css("display", "none");
+                    $('#click').css("display", "block");
+                    window.resizeTo(500, 600);
+                }
+            });
+        });
+    </script>
+
+</body>

@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "NEXON Lv1 Gothic OTF", normal;
+    width: 650px;
+    height: 500px;
+    overflow: hidden; 
+
+}
+
+li {
+    list-style: none;
+}
+.detail-wrap{
+    text-align: center;
+}
+
+.detailPopUp{
+    width: 100%; 
+    padding: 5px;
+}
+.detailPopUp .title{
+    font-size: 1.2em; 
+    font-weight: 700; 
+    text-align: left; 
+    padding-left: 20px;
+}
+.detailTable{
+    display: inline-flex;
+}
+.detailTable .picArea{
+    padding-right:10px; 
+    width: 400px;
+}
+.detailTable .bxslider{
+    width: 350px;
+}
+
+.detailTable .bxslider li{
+    width: 350px;
+}
+.detailTable .bxslider li img{
+    width: 350px;
+    height: auto;
+}
+.detailTable .textArea{
+    text-align: left;
+}
+.detailTable .textArea table{
+    width: 200px;
+}
+.detailTable .textArea td{
+    font-size: 0.9em;
+}
+.detailTable .textArea p{
+    height: 5px;
+}
+.detailTable .textArea tr:first-child{
+    font-size: 1em;
+    line-height: 1.8em; 
+    text-align: center; 
+    font-weight: 700; 
+    color:#448aca; 
+    background-color: #dedede; 
+    border-top: 2px solid #818080;
+}
+.detailTable .textArea table{
+    border-bottom: 2px 
+    solid #818080;
+}
